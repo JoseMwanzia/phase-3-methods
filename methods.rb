@@ -35,9 +35,10 @@ end
 add(1, 2)
 
 def halve(number)
-    if (number.class != Integer ) 
-      nil
-    else 
-      number/2 
+    if number.class != Integer 
+     puts nil
+    end
+
+  puts number/2.0
 end
-  halve("two")
+  halve(5)
